@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left-container {
+    width: 80px;
+    background-color: lightblue;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.right-container {
+    flex: 1;
+    background-color: lightyellow;
+    padding: 20px;
+    border-radius: 15px;
+}
